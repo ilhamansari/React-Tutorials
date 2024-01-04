@@ -1,12 +1,12 @@
 import React from "react";
 import Cards from "./Card";
-function Tours(tours, removeTour){
+function Tours({tours, removeTour}){
     return(
-        <div>
+        <div className="container">
             <div>
-                <h2>Plan with Ilham </h2>
+                <h2 className="title">Plan with Ilham </h2>
             </div>
-            <div>
+            <div className="cards">
                 {
                     tours.map((tour)=>{
                         return <Cards {...tour} removeTour = {removeTour}/>

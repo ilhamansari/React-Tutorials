@@ -1,7 +1,7 @@
 import React from "react"
 import { useState } from "react"
 
-function Cards({id, image, name, price, info, removeTour}) {
+function Cards({id, name, info, image, price,  removeTour}) {
     const[readmore, setReadmore] = useState(false)
     const description = readmore ? info : `${info.substring(0,200)}....`
 

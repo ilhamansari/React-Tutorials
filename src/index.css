@@ -30,7 +30,7 @@ body{
     display: flex;
     /* align-items: center; */
     justify-content: center;
-    flex-direction: wrap;
+    flex-wrap: wrap;
     max-width: 1300px;
     margin: 0 auto;
 }
